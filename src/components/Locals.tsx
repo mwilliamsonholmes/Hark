@@ -9,8 +9,11 @@ import "./../assets/scss/App.scss";
 export default function Locals() {
   return (
     <>
+    {/* <a href="https://www.fontspace.com/category/calligraphy"> */}
+      <img src="https://see.fontimg.com/api/renderfont4/GOerP/eyJyIjoiZnMiLCJoIjoxOTIsInciOjIwMDAsImZzIjo5NiwiZmdjIjoiIzAwMDAwMCIsImJnYyI6IiNGRkZGRkYiLCJ0IjoxfQ/SGFyaw/shogeking-oniki.png" alt="Calligraphy fonts" />
+      {/* </a> */}
       <div className="body">
-        <img className="logo" src={logo.default} alt="Hark Logo"/>
+        {/* <img className="logo" src={logo.default} alt="Hark Logo"/> */}
         <img
           className="background"
           src={background.default}
