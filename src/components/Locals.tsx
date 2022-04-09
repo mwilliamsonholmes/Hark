@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 const profile_pic = require("./../assets/img/profile-pic.png");
-const logo = require("./../assets/img/logo.png");
+// const logo = require("./../assets/img/logo.png");
 const background = require("./../assets/img/background2.jpeg");
 import "./../assets/scss/App.scss";
 
