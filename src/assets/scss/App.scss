@@ -2,32 +2,34 @@
 .navbar {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   position: fixed;
-  top: 0;
+  // top: 0;
   padding-top: 20px;
-  
+  top: 0; left: 0; right: 0;
+  z-index: 9999; 
+  background-color: rgb(242, 242, 242);
 }
 
-
+.mail {
+  margin-left: 15px;
+  size: 70pt;
+}
 
 .logo {
-  height: 100px;
-  display: flex;
-  margin-left:210px;
+  height: 120px;
+  
+
   
 }
 
 .logged-in {
   height:50px;
   border-radius: 15px;
-  margin-left: 170px;
+  margin-right: 15px;
 }
 
-// .phone {
-//   height: 20px;
-//   padding-right: 10px;
-//   padding-left: 10px;
-// }
+
 .button:hover {
   background-color: violet;
 }
@@ -47,7 +49,7 @@
   margin-left: 15px;
   margin-right: 15px;
   border-radius: 30px;
-  margin-top: 50px;
+  margin-top: 60px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 5px;
@@ -87,7 +89,7 @@
 
 .footer {
   margin-top: 30px;
-  background-color: #f2e8f2;
+  background-color: rgb(242, 242, 242);
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -95,7 +97,7 @@
 }
 
 .icon {
-  size: 5cm;
+  size: 30pt;
 }
 
 .icon:hover {
@@ -121,6 +123,7 @@ color: #18a799;
 border-radius: 10px;
 margin-top: 0;
 border: none;
+margin-left: 13px;
 
 }
 

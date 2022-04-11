@@ -7,20 +7,22 @@ const logo = require("./../assets/img/hark.png");
 const background = require("./../assets/img/background2.jpeg");
 import "./../assets/scss/App.scss";
 
-import { FaPhoneVolume, FaHome, FaRegHeart, FaUserAlt } from 'react-icons/fa';
+import { FaPhoneVolume, FaHome, FaRegHeart, FaUserAlt, FaEnvelope } from 'react-icons/fa';
 
 
 export default function Locals() {
   return (
     <>
-      <div className="navbar">
+      <nav className="navbar">
+      <FaEnvelope size={30} className="mail"/>
         <img className="logo" src={logo.default} alt="Hark Logo"/>
         <img
             className="logged-in"
             src={profile_pic.default}
             alt="Profile Picture"
           />
-          </div>
+          
+          </nav>
           {/* <h4 className="your-name">Ruby</h4> */}
         <img
           className="background"
@@ -29,7 +31,7 @@ export default function Locals() {
         />
         <body className="main">
         <div className="local-bio">
-          <h4 className="name">Paul</h4>
+          <h4 className="name">Paul, 35</h4>
           <p className="bio">Hey! I'm Paul, I love cupcakes, cycling, and music. Would love to chat and get to know you better.</p>
           <p className="status">Status: Online</p> 
           <button className="btn btn-2"><FaPhoneVolume/> Connect</button>
