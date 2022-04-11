@@ -1,7 +1,8 @@
+/* eslint-disable prettier/prettier */
 import * as React from 'react';
 
 const profile_pic = require("./../assets/img/profile-pic.png");
-// const logo = require("./../assets/img/logo.png");
+const logo = require("./../assets/img/hark.png");
 const background = require("./../assets/img/background2.jpeg");
 import "./../assets/scss/App.scss";
 
@@ -9,24 +10,21 @@ import "./../assets/scss/App.scss";
 export default function Locals() {
   return (
     <>
-    {/* <a href="https://www.fontspace.com/category/calligraphy"> */}
-      <img src="https://see.fontimg.com/api/renderfont4/GOerP/eyJyIjoiZnMiLCJoIjoxOTIsInciOjIwMDAsImZzIjo5NiwiZmdjIjoiIzAwMDAwMCIsImJnYyI6IiNGRkZGRkYiLCJ0IjoxfQ/SGFyaw/shogeking-oniki.png" alt="Calligraphy fonts" />
-      {/* </a> */}
-      <div className="body">
-        {/* <img className="logo" src={logo.default} alt="Hark Logo"/> */}
+      <div className="navbar">
+        <img className="logo" src={logo.default} alt="Hark Logo"/>
+        <img
+            className="logged-in"
+            src={profile_pic.default}
+            alt="Profile Picture"
+          />
+          </div>
+          {/* <h4 className="your-name">Ruby</h4> */}
         <img
           className="background"
           src={background.default}
           alt="background image"
         />
-        <div>
-          <img
-            className="logged-in"
-            src={profile_pic.default}
-            alt="Profile Picture"
-          />
-          <h4 className="your-name">Ruby</h4>
-        </div>
+        <main className="main">
         <div className="local-bio">
           <h4 className="name">Paul</h4>
           <p className="bio">Hey! I'm Paul, I love cupcakes, cycling, and music. Would love to chat and get to know you better.</p>
@@ -47,7 +45,7 @@ export default function Locals() {
           <p className="bio">Hey, I'm Jack. I was born and raised on the island, love to fish, and looking to find my hiking partner. Let's chat! </p>
           <p className="status">Status: Online</p>
         </div>
-      </div>
+        </main>
     </>
   );
 }
