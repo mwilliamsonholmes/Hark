@@ -10,9 +10,8 @@ class App extends React.Component<Record<string, unknown>, undefined> {
   public render() {
     return (
       <div className="app">
-      <Locals />
-     </div>
-      
+        <Locals />
+      </div>
     );
   }
 }
