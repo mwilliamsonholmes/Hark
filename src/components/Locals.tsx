@@ -5,6 +5,7 @@ const profile_pic = require("./../assets/img/profile-pic.png");
 const logo = require("./../assets/img/hark.png");
 const background = require("./../assets/img/background2.jpeg");
 import "./../assets/scss/App.scss";
+import LocalsProfile from "./LocalsProfile";
 
 import {
   FaPhoneVolume,
