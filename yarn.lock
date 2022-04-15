@@ -3016,14 +3016,6 @@
   dependencies:
     "array-find-index" "^1.0.1"
 
-"cwebp-bin@^7.0.1":
-  "integrity" "sha512-Ko5ADY74/dbfd8xG0+f+MUP9UKjCe1TG4ehpW0E5y4YlPdwDJlGrSzSR4/Yonxpm9QmZE1RratkIxFlKeyo3FA=="
-  "resolved" "https://registry.npmjs.org/cwebp-bin/-/cwebp-bin-7.0.1.tgz"
-  "version" "7.0.1"
-  dependencies:
-    "bin-build" "^3.0.0"
-    "bin-wrapper" "^4.0.1"
-
 "dashdash@^1.12.0":
   "integrity" "sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA="
   "resolved" "https://registry.npmjs.org/dashdash/-/dashdash-1.14.1.tgz"
@@ -3705,7 +3697,7 @@
   "resolved" "https://registry.npmjs.org/events/-/events-3.3.0.tgz"
   "version" "3.3.0"
 
-"exec-buffer@^3.0.0", "exec-buffer@^3.2.0":
+"exec-buffer@^3.0.0":
   "integrity" "sha512-wsiD+2Tp6BWHoVv3B+5Dcx6E7u5zky+hUwOHjuH2hKSLR3dvRmX8fk8UD8uqQixHs4Wk6eDmiegVrMPjKj7wpA=="
   "resolved" "https://registry.npmjs.org/exec-buffer/-/exec-buffer-3.2.0.tgz"
   "version" "3.2.0"
@@ -3950,11 +3942,6 @@
     "schema-utils" "^3.0.0"
 
 "file-type@^10.4.0":
-  "integrity" "sha512-uzk64HRpUZyTGZtVuvrjP0FYxzQrBf4rojot6J65YMEbwBLB0CWm0CLojVpwpmFmxcE/lkvYICgfcGozbBq6rw=="
-  "resolved" "https://registry.npmjs.org/file-type/-/file-type-10.11.0.tgz"
-  "version" "10.11.0"
-
-"file-type@^10.5.0":
   "integrity" "sha512-uzk64HRpUZyTGZtVuvrjP0FYxzQrBf4rojot6J65YMEbwBLB0CWm0CLojVpwpmFmxcE/lkvYICgfcGozbBq6rw=="
   "resolved" "https://registry.npmjs.org/file-type/-/file-type-10.11.0.tgz"
   "version" "10.11.0"
@@ -4811,15 +4798,6 @@
     "is-svg" "^4.2.1"
     "svgo" "^2.1.0"
 
-"imagemin-webp@^7.0.0":
-  "integrity" "sha512-JoYjvHNgBLgrQAkeCO7T5iNc8XVpiBmMPZmiXMhalC7K6gwY/3DCEUfNxVPOmNJ+NIJlJFvzcMR9RBxIE74Xxw=="
-  "resolved" "https://registry.npmjs.org/imagemin-webp/-/imagemin-webp-7.0.0.tgz"
-  "version" "7.0.0"
-  dependencies:
-    "cwebp-bin" "^7.0.1"
-    "exec-buffer" "^3.2.0"
-    "is-cwebp-readable" "^3.0.0"
-
 "imagemin@^7.0.1":
   "integrity" "sha512-33AmZ+xjZhg2JMCe+vDf6a9mzWukE7l+wAtesjE7KyteqqKjzxv7aVQeWnul1Ve26mWvEQqyPwl0OctNBfSR9w=="
   "resolved" "https://registry.npmjs.org/imagemin/-/imagemin-7.0.1.tgz"
@@ -4982,13 +4960,6 @@
   "version" "2.6.0"
   dependencies:
     "has" "^1.0.3"
-
-"is-cwebp-readable@^3.0.0":
-  "integrity" "sha512-bpELc7/Q1/U5MWHn4NdHI44R3jxk0h9ew9ljzabiRl70/UIjL/ZAqRMb52F5+eke/VC8yTiv4Ewryo1fPWidvA=="
-  "resolved" "https://registry.npmjs.org/is-cwebp-readable/-/is-cwebp-readable-3.0.0.tgz"
-  "version" "3.0.0"
-  dependencies:
-    "file-type" "^10.5.0"
 
 "is-date-object@^1.0.1":
   "integrity" "sha512-9YQaSxsAiSwcvS33MBk3wTCVnWK+HhF8VZR2jRxehM16QcVOdHqPn4VPHmRK4lSr38n9JriurInLcP90xsYNfQ=="
